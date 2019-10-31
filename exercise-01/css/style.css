@@ -1,0 +1,39 @@
+/*
+Reset
+*/
+a {
+    color:black;
+    text-decoration: none
+}
+/*
+color
+*/
+         main {
+             background-color:green;
+             color:white;
+         }
+        
+         .prime-paragraphs {
+             background-color: aqua;
+         }
+          .prime-paragraphs {
+             background-color: red;
+         }
+      
+         #first-paragraph{
+             background-color: black;
+         }
+         
+         .first-paragraph{
+             background-color: orange;
+         }   
+/*
+layout
+*/
+/*
+navigation
+*/
+/*
+Typography
+*/
+         
