@@ -4,38 +4,50 @@
      <meta charset="utf-8">
      <title>My first Website</title>
      <style>
-      
+         /*element selectors*/
          main {
              background-color:green;
          }
-         main p {
-             background-color:red;
+         /*class selectors*/
+         .prime-paragraphs {
+             background-color: aqua;
+         }
+          .prime-paragraphs {
+             background-color: red;
+         }
+         /*id selectors*/
+         #first-paragraph{
+             background-color: black;
          }
          
+         .first-paragraph{
+             background-color: orange;
+         }   
+        
          
      </style>
   </head>
-     <body>
+     <body class="home-page">
      <header>
       <h1>My first Website</h1>
      </header>
       
        <main style="color:white">
          <!--this is not really my first Website-->
-          <p>
+          <p id="first-paragraph" class=" first-paragraph prime-paragraphs">
            This is not really my first page!<br><br>this is just one page.<strong> Test </strong> 
           </p>
           
       <img src="exercise-01/img/unnamed.png" width="100%" alt="this is a pic">
       <img src="https://cdn.pixabay.com/photo/2019/10/24/10/51/morning-4573991__340.jpg" width="100%" alt="this is a pic 2">
-          <p>
+          <p id="second-paragraph" class="prime-paragraphs"   >
              This is not really my first page! this is just one page.
           </p>
       
        </main>
          <footer>
             <hr>
-            <p>
+            <p id="third-paragraph" class="footer-paragraphs">
                 &copy; 2019 Farnoosh Hoveida
             </p>
          </footer>
