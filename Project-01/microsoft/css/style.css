@@ -1,0 +1,46 @@
+
+/*
+Imports
+*/
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script&display=swap');
+
+body {
+    background-image: url(../img/thank-you-944086_1920.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 40px;
+    }
+  
+main {
+    font-family:'Dancing Script', cursive;
+    color: blueviolet;    
+}
+
+div {
+  position: relative;
+  -webkit-animation: mymove 5s infinite; /* Safari 4.0 - 8.0 */
+  animation: mymove 5s ;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes mymove {
+  from {left: 0px;}
+  to {left: 200px;}
+}
+
+@keyframes mymove {
+  from {left: -500px;}
+  to {left: 15px;}
+}
+  
+ 
+  
+ 
+
+
+
+
+
+
+
+
