@@ -1,0 +1,102 @@
+/*
+Reset
+*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*
+Color & Style
+*/
+body {
+    background-color: rgb(200,200,200);
+    font-family: 'Helvetica', Arial, sans-serif;
+}
+
+
+/*
+Nav-desktop
+*/
+#desktop-nav ul {
+  list-style-type: none;
+   float: right;
+}
+#desktop-nav ul li {
+    margin-right: 20px; 
+    float: right;
+    margin-top: 50px;
+    
+}
+#desktop-nav ul li a {
+    display: inline-block;
+    font-family: 'Helvetica', Arial, sans-serif;
+    background-color: indianred;
+    color: white;
+    padding: 3px 10px;
+    text-decoration: none;
+}
+#desktop-nav ul li a:hover {
+    color: black;
+}
+
+            
+h2 {
+   padding-left: 20px;
+   color: indianred;
+   margin-top: 50px;
+   float: left;
+  }                      
+
+img {
+    
+   border-radius: 50%; 
+   margin-top: 150px;
+   float: left;
+/*
+Layout
+*/    
+}
+aside {
+  padding-top: 500px;
+  margin-left: 800px;
+  width: 50%;
+}
+
+article {
+  float: left;
+  padding-top: 100px;
+  padding-left: 10px;
+}
+
+/*
+Table
+*/
+
+table,td,th {
+  border-collapse: collapse;
+  text-align: center;
+  
+}
+table .td {
+  border-right: 6px solid indianred;
+  height: 70px;
+  padding: 60px;
+  
+}
+    
+/*
+footer
+*/
+footer {
+  float: left;
+  width: 100%;
+  background-color: aqua;
+}
+
+
+
+/*
+Typography
+*/
+
