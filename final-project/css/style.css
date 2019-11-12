@@ -39,9 +39,6 @@ Nav-desktop
     padding: 3px 10px;
     text-decoration: none;
 }
-#desktop-nav ul li a:hover {
-    color: black;
-}
 
 #desktop-nav .li-left {
     float: left;
@@ -54,7 +51,7 @@ Nav-desktop
  
 img {
    border-radius: 50%; 
-   margin-top: 60px;
+   margin-top: 20px;
    margin-left: 50px;
    float: left;
     }
@@ -64,10 +61,13 @@ img {
     }
 /*
 Layout
-*/    
+*/  
+header {
+    background-color: white;
+}
 
 aside {
-    padding-top: 400px;
+    padding-top: 300px;
     margin-left: 50px;
     line-height: 18pt;
     width: 50%;
@@ -114,6 +114,7 @@ footer {
   bottom: 0;
   width: 100%;
   text-align: center;
+  background-color: white;
 }
 
 
