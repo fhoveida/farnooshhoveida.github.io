@@ -5,6 +5,7 @@ Reset
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 /*
 Color & Style
@@ -50,30 +51,21 @@ Nav-desktop
     padding: 3px 10px;
     text-decoration: none; 
 }
-
-            
-h2 {
-   padding-left: 20px;
-   color: indianred;
-   margin-top: 50px;
-   float: left;
-  }                      
-h3 {
-   padding-left: 50px;
-   margin-top: 130px;
-   float: left;
-  }  
+ 
 img {
-    
    border-radius: 50%; 
-   margin-top: 70px;
+   margin-top: 60px;
    margin-left: 50px;
-
    float: left;
+    }
+
+    #fontsize {
+        font-size:20px; 
+    }
 /*
 Layout
 */    
-}
+
 aside {
     padding-top: 400px;
     margin-left: 50px;
@@ -81,8 +73,7 @@ aside {
     width: 50%;
     display: inline-block;
     font-family: 'Helvetica', Arial, sans-serif;
-    font-size: 16px;
-    color: white;
+    font-size: 20px;
     text-decoration: none;
 }
 
@@ -90,7 +81,7 @@ article {
   float: left;
   padding-top: 100px;
   padding-left: 200px;
-    
+  line-height: 18pt; 
 }
 
 /*
@@ -99,15 +90,15 @@ Table
 
 table,td,th {
   border-collapse: collapse;
-  text-align: center;
+  text-align: left;
   margin-top: 100px;
   margin-left: 200px;
 }
 table .td {
   border-right: 6px solid indianred;
-  padding: 60px;
+  padding: 50px;
   text-align: right;
-  height: 70px;
+  height: 60px;
   
 }
 
@@ -118,9 +109,11 @@ footer
 footer {
   float: left;
   width: 100%;
-  background-color: aqua;
-  margin-bottom: 0px;
-  margin-left: 100px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
 }
 
 
