@@ -1,14 +1,41 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta charset=&quot;UTF-8&quot;>
+   <meta name=&quot;viewport&quot;
+   content=&quot;width=device-width, initial-scale=1.0&quot;>
+   <meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;ie=edge&quot;>
     <title>My profile</title>
     <link rel="stylesheet" href="css/style.css" >
+    <script>
+  function toggleMobileNav() {    
+  var x = document.getElementById("mobile-nav");
+  if (x.style.height === "195px") {
+    x.style.height = "40px";
+  } else {
+    x.style.height = "195px";
+         }
+  }
+   </script>
 </head>
 
 <body>
     <header>
+       <nav id="mobile-nav">
+            <div id="burger-icon" onclick="toggleMobileNav()">
+                <div></div>
+                <div></div>                
+                <div></div>             
+            </div>
+            <ul>  
+            <li><a href="index.html" onclick="document.getElementById('mobile-nav').style.height= '40px'">Home</a></li>
+            <li><a href="experience.html" onclick="document.getElementById('mobile-nav').style.height= '40px'">Experience</a></li> 
+            <li><a href="skills.html" onclick="document.getElementById('mobile-nav').style.height= '40px'">Skills</a></li>    
+            <li><a href="contact.html" onclick="document.getElementById('mobile-nav').style.height= '40px'">Contact</a></li>  
+            </ul>   
+        </nav>
         <nav id="desktop-nav">
             <ul>
                 <li><a href="contact.html">Contact</a></li>
@@ -24,7 +51,7 @@
             <img src="img/farnoosh.jpg" alt="my Pic" height="700" width="500" >
             <aside>
             <p>
-             <b>Farnoosh Hoveida</b><br><b>Education:</b> B. Sc. Bachelor of Electrical (Electronics)Engineering<br><b>Address:</b> XX-YY ZZZ 8 13333 Berlin<br><b>E-Mail:</b> farnoush.hoveida@gmail.com<br><b>Mobile:</b>017612345678<br>
+             <b>Farnoosh Hoveida</b><br><b>Education:</b> B. Sc. Bachelor of Electrical (Electronics)Engineering<br><b>Address:</b> Hilda Geiringer-Weg 8, 10557 Berlin<br><b>E-Mail:</b> farnoush.hoveida@gmail.com<br><b>Mobile:</b>017636552014<br>
             </p>
             </aside>
     </main>
@@ -32,6 +59,10 @@
         <p>
    &copy; 2019 Farnoosh Hoveida
         </p>
+         <ul>
+                <li><a href="impressum.html">impressum</a></li>
+                <li><a href="datenschutzerkl%C3%A4rung.html">Datenschutzerklärung</a></li>
+        </ul>
     </footer>
 </body>
 </html>

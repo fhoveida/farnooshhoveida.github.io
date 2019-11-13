@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
+
 /*
 Reset
 */
@@ -7,12 +9,76 @@ Reset
     box-sizing: border-box;
     
 }
+
+ #desktop-nav {
+        display: none;
+    }
+  /* 
+Responsive design, mobile first 
+*/
+        
+@media only screen and (min-width: 600px) {
+
+
+    /* 
+    Nav, desktop
+    */
+
+    #desktop-nav {
+        display: block;
+    }
+
+    #mobile-nav {
+        display: none;
+    }
+
 /*
 Color & Style
 */
 body {
-    background-color: rgb(200,200,200);
-    font-family: 'Helvetica', Arial, sans-serif;
+    background-image: url(../img/backimage1.jpg);
+   font-family: 'Nunito', sans-serif;
+}
+
+    
+/* 
+Nav- mobile
+*/       
+        
+#burger-icon {
+    margin: 0 20px;
+}
+
+#burger-icon div {
+    width: 30px;
+    height: 5px;
+    border-radius: 2px;
+    background-color: rgba(150,160,170,0.9);
+    margin: 3px 0 0 0;
+}
+
+
+#burger-icon:hover div {
+    background-color: rgb(160,170,180);
+}
+
+#burger-icon:hover {
+cursor: pointer;
+    }
+
+#mobile-nav ul {
+    margin-top: 11px;
+}
+
+#mobile-nav ul li {
+    margin-top: 1px;
+}
+
+#mobile-nav ul li a {
+    display: inline-block;
+    width: 100%;
+    padding: 10px 20px; 
+    font-size: 1em;
 }
 
 
@@ -33,7 +99,6 @@ Nav-desktop
 }
 #desktop-nav ul li a {
     display: inline-block;
-    font-family: 'Helvetica', Arial, sans-serif;
     background-color: indianred;
     color: white;
     padding: 3px 10px;
@@ -42,7 +107,6 @@ Nav-desktop
 
 #desktop-nav .li-left {
     float: left;
-    font-family: 'Helvetica', Arial, sans-serif;
     font-size: 18pt;
     color: indianred;
     padding: 3px 10px;
@@ -63,7 +127,7 @@ img {
 Layout
 */  
 header {
-    background-color: white;
+   font-family: 'Nunito', sans-serif;
 }
 
 aside {
@@ -72,7 +136,6 @@ aside {
     line-height: 18pt;
     width: 50%;
     display: inline-block;
-    font-family: 'Helvetica', Arial, sans-serif;
     font-size: 20px;
     text-decoration: none;
 }
@@ -118,8 +181,4 @@ footer {
 }
 
 
-
-/*
-Typography
-*/
 
