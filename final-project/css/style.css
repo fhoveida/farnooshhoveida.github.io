@@ -56,7 +56,7 @@ img {
    float: left;
     }
 
-    #fontsize {
+#fontsize {
         font-size:20px; 
     }
 /*
@@ -98,11 +98,8 @@ table .td {
   border-right: 6px solid indianred;
   padding: 50px;
   text-align: right;
-  height: 60px;
-  
-}
-
-    
+  height: 60px; 
+}  
 /*
 footer
 */
@@ -117,9 +114,4 @@ footer {
   background-color: white;
 }
 
-
-
-/*
-Typography
-*/
 
