@@ -152,7 +152,8 @@ article {
   float: left;
   padding-top: 100px;
   padding-left: 200px;
-  line-height: 18pt; 
+  line-height: 18pt;
+  padding-right: 200px;
 }
 
 /*
